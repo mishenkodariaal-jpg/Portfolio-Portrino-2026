@@ -1185,7 +1185,7 @@ a {
 }
 @media (max-width: 650px) {
     #webentwicklung .project-header h2 {
-        font-size: clamp(28px, 8.8vw, 38px) !important;
+        font-size: clamp(28px, 8.8vw, 30px) !important;
         line-height: 1 !important;
         letter-spacing: -0.055em !important;
 
