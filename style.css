@@ -1185,8 +1185,9 @@ a {
 }
 @media screen and (max-width: 650px) {
     #webentwicklung .project-header h2 {
-        font-size: 38px !important;
-        letter-spacing: -0.05em !important;
+        font-size: 10vw !important;
+        line-height: 0.95 !important;
+        letter-spacing: -0.055em !important;
         white-space: nowrap !important;
         word-break: normal !important;
         overflow-wrap: normal !important;
