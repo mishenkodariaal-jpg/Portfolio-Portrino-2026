@@ -1178,3 +1178,8 @@ a {
         display: none !important;
     }
 }
+@media screen and (max-width: 650px) {
+    .hero-note {
+        transform: translateY(-420px) !important;
+    }
+}
