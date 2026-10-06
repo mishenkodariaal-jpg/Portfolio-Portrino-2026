@@ -1183,3 +1183,12 @@ a {
         transform: translateY(-420px) !important;
     }
 }
+@media screen and (max-width: 650px) {
+    #webentwicklung .project-header h2 {
+        font-size: 40px !important;
+        letter-spacing: -0.05em !important;
+        white-space: nowrap !important;
+        word-break: normal !important;
+        overflow-wrap: normal !important;
+    }
+}
