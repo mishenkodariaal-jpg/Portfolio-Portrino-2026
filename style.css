@@ -1099,75 +1099,75 @@ a {
 }
 
 /* =========================================
-   MOBILE FIX
+   FINAL MOBILE FIX
 ========================================= */
 
 @media (max-width: 650px) {
 
     /* HERO */
-    .hero-title {
-        font-size: 72px !important;
-        line-height: 0.9 !important;
-        position: relative !important;
-        top: auto !important;
-        left: auto !important;
-        margin: 25px 0 45px 42px !important;
+
+    .hero {
+        min-height: auto !important;
+        margin-bottom: 0 !important;
+        padding: 70px 20px 60px !important;
+        display: block !important;
     }
 
-    .hero-note {
-        position: relative !important;
-        top: auto !important;
-        right: auto !important;
-        width: auto !important;
-        margin: 0 42px 55px 42px !important;
-    }
-
-    /* PROJECT TITLES */
-    .project-header h2 {
-        font-size: clamp(42px, 11vw, 64px) !important;
-        line-height: 0.95 !important;
-        overflow-wrap: anywhere;
-    }
-
-    /* чтобы ничего не вылезало вправо */
-    .project {
-        overflow: hidden;
-    }
-}
-
-/* ===== FINAL MOBILE OVERRIDE ===== */
-
-@media screen and (max-width: 650px) {
-
-    /* Убираем огромное PORTFOLIO на первом экране */
     .hero-title {
         display: none !important;
     }
 
-    /* Текст справа превращаем в нормальный блок */
     .hero-note {
         position: static !important;
-        width: auto !important;
-        max-width: none !important;
-        margin: 70px 42px 55px !important;
-        transform: none !important;
+        width: 100% !important;
+        margin: 0 0 55px 0 !important;
     }
 
-    /* Заголовки проектов */
-    .project-header h2,
-    .project h2 {
-        font-size: 46px !important;
-        line-height: 1 !important;
-        letter-spacing: -0.04em !important;
-        max-width: 100% !important;
-        width: 100% !important;
-        white-space: normal !important;
-        overflow-wrap: break-word !important;
-        word-break: normal !important;
+    .portfolio-label {
+        transform: none !important;
+        margin: 0 0 55px 0 !important;
+    }
+
+    .scroll-link {
+        transform: none !important;
+        margin-top: 0 !important;
+        display: inline-block !important;
+    }
+
+
+    /* PROJECTS */
+
+    .project {
+        padding: 65px 20px 75px !important;
+        overflow: hidden !important;
     }
 
     .project-header {
+        display: block !important;
         width: 100% !important;
+    }
+
+    .project-number {
+        display: block !important;
+        margin-bottom: 22px !important;
+    }
+
+    .project h2 {
+        font-size: 42px !important;
+        line-height: 0.95 !important;
+        letter-spacing: -0.045em !important;
         max-width: 100% !important;
+        white-space: normal !important;
+        overflow-wrap: break-word !important;
+    }
+
+    .project-category {
+        margin-top: 16px !important;
+    }
+
+    .project-intro {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-bottom: 40px !important;
     }
 }
