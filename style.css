@@ -1097,3 +1097,40 @@ a {
     }
 
 }
+
+/* =========================================
+   MOBILE FIX
+========================================= */
+
+@media (max-width: 650px) {
+
+    /* HERO */
+    .hero-title {
+        font-size: 72px !important;
+        line-height: 0.9 !important;
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        margin: 25px 0 45px 42px !important;
+    }
+
+    .hero-note {
+        position: relative !important;
+        top: auto !important;
+        right: auto !important;
+        width: auto !important;
+        margin: 0 42px 55px 42px !important;
+    }
+
+    /* PROJECT TITLES */
+    .project-header h2 {
+        font-size: clamp(42px, 11vw, 64px) !important;
+        line-height: 0.95 !important;
+        overflow-wrap: anywhere;
+    }
+
+    /* чтобы ничего не вылезало вправо */
+    .project {
+        overflow: hidden;
+    }
+}
