@@ -1171,3 +1171,10 @@ a {
         margin-bottom: 40px !important;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .hero-title,
+    .hero-note {
+        display: none !important;
+    }
+}
