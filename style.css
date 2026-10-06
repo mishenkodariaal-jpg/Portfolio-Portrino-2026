@@ -1134,3 +1134,40 @@ a {
         overflow: hidden;
     }
 }
+
+/* ===== FINAL MOBILE OVERRIDE ===== */
+
+@media screen and (max-width: 650px) {
+
+    /* Убираем огромное PORTFOLIO на первом экране */
+    .hero-title {
+        display: none !important;
+    }
+
+    /* Текст справа превращаем в нормальный блок */
+    .hero-note {
+        position: static !important;
+        width: auto !important;
+        max-width: none !important;
+        margin: 70px 42px 55px !important;
+        transform: none !important;
+    }
+
+    /* Заголовки проектов */
+    .project-header h2,
+    .project h2 {
+        font-size: 46px !important;
+        line-height: 1 !important;
+        letter-spacing: -0.04em !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        white-space: normal !important;
+        overflow-wrap: break-word !important;
+        word-break: normal !important;
+    }
+
+    .project-header {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
